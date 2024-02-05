@@ -1,0 +1,17 @@
+%% -*- mode: erlang -*-
+{application, emqx_bridge_mqtt, [
+    {description, "EMQX MQTT Broker Bridge"},
+    {vsn, "0.1.8"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        emqx,
+        emqx_resource,
+        emqtt
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache 2.0"]},
+    {links, []}
+]}.
